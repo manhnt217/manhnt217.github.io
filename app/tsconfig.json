@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "es5",
+      "es2018"
+    ],
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "paths": {
+    "*": [
+      "./node_modules/*"
+    ],
+    "src/*": [
+      "./src/*"
+    ]
+  },
+  "//": "These are your entry points",
+  "include": [
+    "src", "src/custom.d.ts"
+  ]
+}

@@ -1,3 +1,7 @@
 * text=false
 
+*.chunk.js binary
+*.bundle.js binary
+*.bundle.css binary
+
 package-lock.json binary
