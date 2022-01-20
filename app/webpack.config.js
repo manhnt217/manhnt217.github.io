@@ -46,9 +46,6 @@ module.exports = (env) => {
                                 loader: 'style-loader',
                                 options: {
                                     esModule: true,
-                                    modules: {
-                                        namedExport: true,
-                                    }
                                 }
                             },
                             {
